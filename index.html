@@ -10,223 +10,266 @@
 </head>
 <body>
     
-    <main class="main container">
+    <main class="main">
 
         <header class="main-header">
-            <div class="row justify-content-between">
-                <div class="main-header__logo-block col-auto">
-                    <img src="images/logo.png" alt="logo" class="main-header__logo">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="main-header__logo-block col-auto">
+                        <img src="images/logo.png" alt="logo" class="main-header__logo">
+                    </div>
+                    <nav class="main-header__navigation col-auto">
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Startseite</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Leistungen</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Referenzen</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Über uns</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="main-header__contact col-auto">
+                        <a href="#" class="main-header__contact-btn btn-link">
+                            Kontakt
+                        </a>
+                    </div>
                 </div>
-                <nav class="main-header__navigation col-auto">
-                    <ul class="menu">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Startseite</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Leistungen</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Referenzen</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Über uns</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="main-header__contact col-auto">
-                    <a href="#" class="main-header__contact-btn">
-                        Kontakt
-                    </a>
-                </div>
-            </div>
+            </div>            
         </header>
 
         <section class="hero-section">
-            <div class="row align-items-center justify-content-lg-between">
-                <div class="hero-section__desc col-4">
-                    <h4 class="hero-section__subtitle">
-                        Ingenieur Dieter Weiss
-                    </h4>
-                    <h2 class="hero-section__title">
-                        Ingenieurbüro für Bau- und Vermessungswesen
-                    </h2>
-                    <p class="hero-section__text">
-                        Wenn Sie zuverlässige Ingenieure brauchen – das Ingenieurbüro Dieter Weiss ist Garant für den Er­folg Ihrer Projekte.
-                    </p>
-                    <a href="#" class="hero-section__link link-arrow">
-                        Ihr Projekt mit uns
-                    </a>
-                </div>
-                <div class="hero-section__image-block col-auto">
-                    <img src="images/hello.png" alt="hero">
-                </div>
-            </div>       
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="hero-section__desc col-4">
+                        <h4 class="hero-section__subtitle">
+                            Ingenieur Dieter Weiss
+                        </h4>
+                        <h2 class="hero-section__title">
+                            Ingenieurbüro für Bau- und Vermessungswesen
+                        </h2>
+                        <p class="hero-section__text">
+                            Wenn Sie zuverlässige Ingenieure brauchen – das Ingenieurbüro Dieter Weiss ist Garant für den Er­folg Ihrer Projekte.
+                        </p>
+                        <a href="#" class="hero-section__link link-arrow btn-link">
+                            Ihr Projekt mit uns
+                        </a>
+                    </div>
+                    <div class="hero-section__image-block col-auto">
+                        <img src="images/hello.png" alt="hero" class="shadow">
+                    </div>
+                </div>       
+            </div>            
         </section>
 
         <section class="service-section">
-            <div class="service-section__heading row">
-                <div class="col-5">
-                    <h4 class="service-section__title">
-                        Unsere Dienstleistungen
-                    </h4>
-                    <p class="service-section__text">
-                        Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:
-                    </p>
-                </div>
-            </div>
-           
-            <div class="service-section__atricles row justify-content-between">
-                <div class="col-auto">
-                    <article class="service-section__article">
-                        <img src="images/links/1.png" alt="pic">
-                        <h4 class="service-section__article-title">
-                            Studien und Konzepte, Gesamtplanung
+            <div class="container">
+                <div class="service-section__heading row">
+                    <div class="col-5">
+                        <h4 class="service-section__title">
+                            Unsere Dienstleistungen
                         </h4>
-                        <p class="service-section__acticle-text">
-                            Neubau und Ausbau von Straßen, Verkehrsflächen, Wasserwegen und Eisenbahnen erfordert überzeugende Verkehrskonzepte.
+                        <p class="service-section__text">
+                            Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:
                         </p>
-                        <a href="#" class="service-section__article-link link-arrow">
-                            Erfahren Sie mehr
-                        </a>
-                    </article>
+                    </div>
                 </div>
-                <div class="col-auto">
-                    <article class="service-section__article">
-                        <img src="images/links/2.png" alt="pic">
-                        <h4 class="service-section__article-title">
-                            Verkehrsanlagen und Ingenieurbauwerke
+               
+                <div class="service-section__atricles row justify-content-between">
+                    <div class="col-auto">
+                        <article class="service-section__article">
+                            <img src="images/links/1.png" alt="pic" class="shadow">
+                            <h4 class="service-section__article-title">
+                                Studien und Konzepte, Gesamtplanung
+                            </h4>
+                            <p class="service-section__acticle-text">
+                                Neubau und Ausbau von Straßen, Verkehrsflächen, Wasserwegen und Eisenbahnen erfordert überzeugende Verkehrskonzepte.
+                            </p>
+                            <a href="#" class="service-section__article-link link-arrow-orange">
+                                Erfahren Sie mehr
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-auto">
+                        <article class="service-section__article">
+                            <img src="images/links/2.png" alt="pic" class="shadow">
+                            <h4 class="service-section__article-title">
+                                Verkehrsanlagen und Ingenieurbauwerke
+                            </h4>
+                            <p class="service-section__acticle-text">
+                                Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.
+                            </p>
+                            <a href="#" class="service-section__article-link link-arrow-orange">
+                                Erfahren Sie mehr
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-auto">
+                        <article class="service-section__article">
+                            <img src="images/links/3.png" alt="pic" class="shadow">
+                            <h4 class="service-section__article-title">
+                                Entwurfsvermessung, 3D-Laserscanning
+                            </h4>
+                            <p class="service-section__acticle-text">
+                                Bei Ausführung sämtlicher vermessungstechnischer Aufgaben im Leistungsbild „Ent­wurfs­vermessung“ sind wir ein leistungsstarker Partner.
+                            </p>
+                            <a href="#" class="service-section__article-link link-arrow-orange">
+                                Erfahren Sie mehr
+                            </a>
+                        </article>
+                    </div>             
+                </div>
+    
+                <div class="service-section__diplom row">
+                    <div class="service-section__diplom-info col">
+                        <h4 class="service-section__diplom-subtitle">
+                            Unsere Firmenhistorie
                         </h4>
-                        <p class="service-section__acticle-text">
-                            Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.
+                        <h2 class="service-section__diplom-title">
+                            Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.
+                        </h2>
+                        <p class="service-section__diplom-text">
+                            Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer
                         </p>
-                        <a href="#" class="service-section__article-link link-arrow">
-                            Erfahren Sie mehr
+                        <a href="#" class="service-section__diplom-link link-arrow">
+                            Lesen Sie weiter
                         </a>
-                    </article>
+                    </div>
+                    <div class="service-section__diplom-image-block col-auto">
+                        <img src="images/diplom.png" alt="diplom" class="service-section__diplom-image shadow">
+                    </div>
                 </div>
-                <div class="col-auto">
-                    <article class="service-section__article">
-                        <img src="images/links/3.png" alt="pic">
-                        <h4 class="service-section__article-title">
-                            Entwurfsvermessung, 3D-Laserscanning
-                        </h4>
-                        <p class="service-section__acticle-text">
-                            Bei Ausführung sämtlicher vermessungstechnischer Aufgaben im Leistungsbild „Ent­wurfs­vermessung“ sind wir ein leistungsstarker Partner.
-                        </p>
-                        <a href="#" class="service-section__article-link link-arrow">
-                            Erfahren Sie mehr
-                        </a>
-                    </article>
-                </div>             
-            </div>
-
-            <div class="service-section__diplom row">
-                <div class="service-section__diplom-info col">
-                    <h4 class="service-section__diplom-subtitle">
-                        Unsere Firmenhistorie
-                    </h4>
-                    <h2 class="service-section__diplom-title">
-                        Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.
-                    </h2>
-                    <p class="service-section__diplom-text">
-                        Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer
-                    </p>
-                    <a href="#" class="service-section__diplom-link link-arrow">
-                        Lesen Sie weiter
-                    </a>
-                </div>
-                <div class="service-section__diplom-image-block col-auto">
-                    <img src="images/diplom.png" alt="diplom" class="service-section__diplom-image">
-                </div>
-            </div>
+            </div>            
         </section>
 
         <section class="info-section">
-            <div class="info-section__headling row justify-content-between align-items-center">
-                <div class="col-6">
-                    <h2 class="info-section__headling-title">
-                        Wissenswertes
-                    </h2>
-                    <p class="info-section__headling-text">
-                        Integer massa urna, senectus maecenas in dapibus urna amet hendrerit. In ipsum, morbi amet aenean. Iaculis donec sem nullam nunc condimentum nisl non gravida in. 
-                    </p>
-                    <h4 class="info-section__headling-subtitle">
-                        Unsere Letzten Beiträge
-                    </h4>
-                </div>
-               <div class="col-auto">
-                   <a href=" #" class="info-section__headling-link link-arrow">
-                    Unser Blog
-                   </a>
-               </div>
-            </div>
-            <div class="info-section__blogs row justify-content-between">
-                <div class="col-auto">
-                    <div class="info-section__blog">
-                        <h2 class="info-section__blogs-title">
-                            Sed eget morbi cursus elit ipsum pellentesque
+            <div class="container">
+                <div class="info-section__headling row justify-content-between align-items-center">
+                    <div class="col-6">
+                        <h2 class="info-section__headling-title">
+                            Wissenswertes
                         </h2>
-                        <p class="info-section__blogs-text">
-                            Pellentesque mauris arcu nec gravida amet nec. Duis senectus cras semper cursus bibendum phasellus vehicula porttitor...
+                        <p class="info-section__headling-text">
+                            Integer massa urna, senectus maecenas in dapibus urna amet hendrerit. In ipsum, morbi amet aenean. Iaculis donec sem nullam nunc condimentum nisl non gravida in. 
                         </p>
-                        <a href="#" class="info-section__blogs-link link-arrow">
-                            Lesen Sie weiter
-                        </a>
+                        <h4 class="info-section__headling-subtitle">
+                            Unsere Letzten Beiträge
+                        </h4>
+                    </div>
+                   <div class="col-auto">
+                       <a href=" #" class="info-section__headling-link link-arrow btn-link">
+                        Unser Blog
+                       </a>
+                   </div>
+                </div>
+                <div class="info-section__blogs row justify-content-between">
+                    <div class="col-auto">
+                        <div class="info-section__blog">
+                            <h2 class="info-section__blogs-title">
+                                Sed eget morbi cursus elit ipsum pellentesque
+                            </h2>
+                            <p class="info-section__blogs-text">
+                                Pellentesque mauris arcu nec gravida amet nec. Duis senectus cras semper cursus bibendum phasellus vehicula porttitor...
+                            </p>
+                            <a href="#" class="info-section__blogs-link link-arrow-orange">
+                                Lesen Sie weiter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="info-section__blog">
+                            <h2 class="info-section__blogs-title">
+                                Urna velit semper faucibus ac suspendisse et
+                            </h2>
+                            <p class="info-section__blogs-text">
+                                In nibh sodales tincidunt vitae tortor. Turpis aliquam mattis eget cursus bibendum interdum vestibulum, aliquam. Fringilla malesuada...
+                            </p>
+                            <a href="#" class="info-section__blogs-link link-arrow-orange">
+                                Lesen Sie weiter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="info-section__blog">
+                            <h2 class="info-section__blogs-title">
+                                Bibendum augue imperdiet sapien quis enim elementum
+                            </h2>
+                            <p class="info-section__blogs-text">
+                                Facilisi id mus at pulvinar vitae, ornare vitae scelerisque. Lacus egestas augue cursus aliquam nulla. Sed erat a scelerisque neque...
+                            </p>
+                            <a href="#" class="info-section__blogs-link link-arrow-orange">
+                                Lesen Sie weiter
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-auto">
-                    <div class="info-section__blog">
-                        <h2 class="info-section__blogs-title">
-                            Urna velit semper faucibus ac suspendisse et
-                        </h2>
-                        <p class="info-section__blogs-text">
-                            In nibh sodales tincidunt vitae tortor. Turpis aliquam mattis eget cursus bibendum interdum vestibulum, aliquam. Fringilla malesuada...
-                        </p>
-                        <a href="#" class="info-section__blogs-link link-arrow">
-                            Lesen Sie weiter
-                        </a>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="info-section__blog">
-                        <h2 class="info-section__blogs-title">
-                            Bibendum augue imperdiet sapien quis enim elementum
-                        </h2>
-                        <p class="info-section__blogs-text">
-                            Facilisi id mus at pulvinar vitae, ornare vitae scelerisque. Lacus egestas augue cursus aliquam nulla. Sed erat a scelerisque neque...
-                        </p>
-                        <a href="#" class="info-section__blogs-link link-arrow">
-                            Lesen Sie weiter
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </div>            
         </section>
 
         <section class="apply-section">
-            <div class="row justify-content-between">
-                <div class="apply-section__desc col-4">
-                    <h4 class="apply-section__desc-subtitle">
-                        Mach Karriere bei uns
-                    </h4>
-                    <h2 class="apply-section__desc-title">
-                        Bewirb dich bei uns
-                    </h2>
-                    <p class="apply-section__desc-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    </p>
-                    <a href="#" class="apply-section__desc-link link-arrow">
-                        Karriere
-                    </a>
-                </div>
-                <div class="apply-section__image-block col-auto">
-                    <img src="images/career.png" alt="career">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="apply-section__desc col-4">
+                        <h4 class="apply-section__desc-subtitle">
+                            Mach Karriere bei uns
+                        </h4>
+                        <h2 class="apply-section__desc-title">
+                            Bewirb dich bei uns
+                        </h2>
+                        <p class="apply-section__desc-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <a href="#" class="apply-section__desc-link link-arrow btn-link">
+                            Karriere
+                        </a>
+                    </div>
+                    <div class="apply-section__image-block col-auto">
+                        <img src="images/career.png" alt="career" class="shadow">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer class="main-footer">
-            <div class="row"></div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <img src="images/footer_logo.png" alt="logo">
+                    </div>
+                    <div class="col-auto">
+                        <ul class="footer__director">
+                            <li>
+                                <h4 class="footer__subtitle">
+                                    Geschäftsführer
+                                </h4>
+                            </li>
+                            <li>
+                                <p class="footer__text">
+                                    Beratender Ingenieur
+                                    Dipl.-Ing. Klaus Weiss
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="footer__address">
+                            <li>
+                                <h4 class="footer__subtitle">
+                                    Adresse
+                                </h4>
+                            </li>
+                            <li>
+                                <p class="footer__text">
+                                    Straßenname 7 12345 Stadt
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>          
         </footer>
     </main>
 
