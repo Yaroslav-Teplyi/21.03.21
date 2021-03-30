@@ -409,7 +409,6 @@ a{
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
-    /* display: inline-block; */
 }
 
 .footer__link-first {
@@ -428,9 +427,23 @@ a{
 }
 
 @media (max-width: 1199px) {
+    .info__section__inner,
     .service-section__inner {
         display: flex;
         justify-content: center;
+    }
+
+    .apply-section__image-block img,
+    .hero-section__image-block img {
+        width: 500px;
+    }
+
+    .service-section__diplom-image-block img {
+        width: 400px;
+    }
+
+    .service-section__diplom-info {
+        padding: 40px 11px 0 40px;
     }
 }
 
@@ -438,5 +451,26 @@ a{
     .main-header .container .navbar .btn-link,
     .main-header .container .navbar .btn-link:hover {
         margin: 0;
+    }
+
+    .service-section__diplom-image-block,
+    .hero-section__image-block,
+    .apply-section__image-block {
+        display: none;
+    }
+
+    .service-section__diplom-info {
+        padding: 10px;
+    }
+
+    .service-section {
+        padding: 100px 0 33px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__innner {
+        display: flex;
+        justify-content: center;
     }
 }
